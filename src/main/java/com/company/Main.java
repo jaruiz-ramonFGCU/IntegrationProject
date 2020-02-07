@@ -14,14 +14,5 @@ public class Main {
         CsvParser csvP = new CsvParser("src/Data/bookstore_report2.csv");
         csvP.printCsv();
 
-        // Load the json
-        /*
-        1. Create instance of GSON
-        2. Create a JsonReader object using FileReader
-        3. Array of class instances of AuthorParser, assign data from our JsonReader
-        4. foreach loop to check data
-         */
-
-
     }
 }
