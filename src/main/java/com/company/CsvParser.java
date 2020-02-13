@@ -74,6 +74,16 @@ public class CsvParser {
     }
   }
 
+  protected int countLines() {
+    /** printCsv - Printout the Csv */
+    int countForReturn = 1;
+    for (Object row : fileRows) {
+      countForReturn++;
+    }
+    return countForReturn;
+  }
+
+
   private boolean checkFile(String csvfile) {
     /** checkFile - checks to ensure the file exists
      * @return false on file not found, true on found
